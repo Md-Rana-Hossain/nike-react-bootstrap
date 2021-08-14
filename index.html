@@ -6,10 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike React | Bootstrap</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icons/fav-icon.png" type="image/x-icon">
+
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/df16d52d2f.js" crossorigin="anonymous"></script>
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
 
-<body>
 
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/Logo.png" alt="" width="292">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3 fw-bold">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-3 fw-bold">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item px-3 fw-bold">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item px-3 fw-bold">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends -->
+
+        <section class="container border border-primary d-md-flex justify-content-md-between align-items-md-center">
+            <div>
+                <img class=" border border-primary" src="images/banner-shoe.png" width="400" alt="">
+            </div>
+            <div class=" border border-primary ms-lg-auto">
+                <h1 class="text-uppercase top-headline">
+                    <span class="headline-color-1">nike react</span>
+                    <br>
+                    <span class="headline-color-2">infinity run 2</span>
+                </h1>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti a quaerat
+                    dicta debitis dolorum
+                    accusamus.</p>
+                <button class="penguin-btn border-0"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,36 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-headline{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    font-weight: 400;
+}
+.headline-color-1{
+    color: #FA804C;
+}
+.headline-color-2{
+    color: #363958;
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+.penguin-btn{
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+.fa-shopping-cart{
+    margin-right: .5em;
+}
